@@ -327,6 +327,12 @@ input[type=text], select {
   }
 
 /* Gourmade */ 
+.GourmadeCS {
+    display: flexbox;
+    font-family: 'Ruda', sans-serif;
+    color: black;
+}
+
 
 /* Test */
 .cardcontainer {
@@ -359,21 +365,98 @@ input[type=text], select {
 
 /* GirlsRockDC */ 
 .casestudy {
-    display: flex;
+    display: flexbox; 
     letter-spacing: 0;
     font-family: 'Ruda', sans-serif;
     margin-bottom: -250px;
     padding-left: 35px;
+    gap: 15px;
 }
-@media screen and (max-width: 480px) {
-
-    .projectContainer h2{
-        color: olive;
-    }
-
-    .portfolio .rectangle {
-        height: 276px;
-        width: 398px;
-    }
-
+.progressbar {
+    border-radius: 1px;
+    box-shadow: 20px;
+    color: #2f6c38;
+    color: #FFFFFF; 
+    Animation:  1s linear infinite;
+    transition:  width .6s ease;
+}
+.GRCS {
+    display: flex;
+    letter-spacing: 0;
+    font-family: 'Ruda', sans-serif;
+}
+.GRCS2 {
+    display: inline-block;
+    letter-spacing: 0;
+    font-family: 'Ruda', sans-serif;
+}
+.GRCS3 {
+    display: inline-block;
+    letter-spacing: 0;
+    font-family: 'Ruda', sans-serif;
+}
+.GRCS4 {
+    display: inline-block;
+    letter-spacing: 0;
+    font-family: 'Ruda', sans-serif;
+}
+.GRCS5 {
+    display: inline-block;
+    letter-spacing: 0;
+    font-family: 'Ruda', sans-serif;
+}
+.GRCS6 {
+    display: inline-block;
+    letter-spacing: 0;
+    font-family: 'Ruda', sans-serif;
+}
+.GRCS7 {
+    display: inline-block;
+    letter-spacing: 0;
+    font-family: 'Ruda', sans-serif;
+}
+.GRCS8 {
+    display: inline-block;
+    letter-spacing: 0;
+    font-family: 'Ruda', sans-serif;
+}
+.GRCS9 {
+    display: inline-block;
+    letter-spacing: 0;
+    font-family: 'Ruda', sans-serif;
+}
+.GirlsRock {
+    align-items: center;
+    display: flex;
+    row-gap: 15px;
+}
+.ProtoPersona {
+    align-items: center;
+    display: flex;
+    row-gap: 15px;
+}
+.UserPersona1 {
+    align-items: center;
+    display: flex;
+    row-gap: 15px;
+}
+.ValueProp {
+    align-items: center;
+    display: flex;
+    row-gap: 15px;
+}
+.UserSc {
+    align-items: center;
+    display: flex;
+    row-gap: 15px;
+}
+.Wireframe1 {
+    align-items: center;
+    display: flex;
+    row-gap: 15px;
+}
+.Finalcell {
+    align-items: center;
+    display: flex;
+    row-gap: 15px;
 }
