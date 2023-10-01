@@ -311,7 +311,7 @@ input[type=text], select {
     font-family: 'Ruda', sans-serif;
     width: 100%;
     background-color: #46905b;
-    color: White;
+    color: #B4D3A6;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -365,12 +365,10 @@ input[type=text], select {
 
 /* GirlsRockDC */ 
 .casestudy {
-    display: flexbox; 
+    justify-content: left;
     letter-spacing: 0;
     font-family: 'Ruda', sans-serif;
-    margin-bottom: -250px;
-    padding-left: 35px;
-    gap: 15px;
+    font-size: small;
 }
 .progressbar {
     border-radius: 1px;
@@ -379,84 +377,4 @@ input[type=text], select {
     color: #FFFFFF; 
     Animation:  1s linear infinite;
     transition:  width .6s ease;
-}
-.GRCS {
-    display: flex;
-    letter-spacing: 0;
-    font-family: 'Ruda', sans-serif;
-}
-.GRCS2 {
-    display: inline-block;
-    letter-spacing: 0;
-    font-family: 'Ruda', sans-serif;
-}
-.GRCS3 {
-    display: inline-block;
-    letter-spacing: 0;
-    font-family: 'Ruda', sans-serif;
-}
-.GRCS4 {
-    display: inline-block;
-    letter-spacing: 0;
-    font-family: 'Ruda', sans-serif;
-}
-.GRCS5 {
-    display: inline-block;
-    letter-spacing: 0;
-    font-family: 'Ruda', sans-serif;
-}
-.GRCS6 {
-    display: inline-block;
-    letter-spacing: 0;
-    font-family: 'Ruda', sans-serif;
-}
-.GRCS7 {
-    display: inline-block;
-    letter-spacing: 0;
-    font-family: 'Ruda', sans-serif;
-}
-.GRCS8 {
-    display: inline-block;
-    letter-spacing: 0;
-    font-family: 'Ruda', sans-serif;
-}
-.GRCS9 {
-    display: inline-block;
-    letter-spacing: 0;
-    font-family: 'Ruda', sans-serif;
-}
-.GirlsRock {
-    align-items: center;
-    display: flex;
-    row-gap: 15px;
-}
-.ProtoPersona {
-    align-items: center;
-    display: flex;
-    row-gap: 15px;
-}
-.UserPersona1 {
-    align-items: center;
-    display: flex;
-    row-gap: 15px;
-}
-.ValueProp {
-    align-items: center;
-    display: flex;
-    row-gap: 15px;
-}
-.UserSc {
-    align-items: center;
-    display: flex;
-    row-gap: 15px;
-}
-.Wireframe1 {
-    align-items: center;
-    display: flex;
-    row-gap: 15px;
-}
-.Finalcell {
-    align-items: center;
-    display: flex;
-    row-gap: 15px;
 }
