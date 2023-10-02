@@ -20,14 +20,17 @@ body{
 }
 .background1 {
     align-items: center;
-    height: 691px;
+    height: 400px;
     justify-content: center;
     min-width: 1162px;
     padding: 114px 19px;
-    margin-top: 20px;
-    gap: 20px;
+    margin-top: 30px;
+    gap: 66px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
-homepage-iteration-3 .overlap {
+.homepage-iteration-2 .overlap {
     background-color: #Ffffff;
     display: flex;
 }
@@ -123,6 +126,13 @@ p.kasandraf {
 }
 
 /* About Me */ 
+.homepage-iteration-3 {
+    background-color: #84A873;
+    display: flex;
+    height: 832px;
+    padding: 70px 59px;
+    width: 1280px;
+}
 .navbar {
     position: absolute;
     top: 50px;
@@ -385,3 +395,8 @@ input[type=text], select {
     font-size: small;
 }
 
+.backgroundGRDC{
+
+    padding-top: 50px;
+    margin-top: 20px;
+}
