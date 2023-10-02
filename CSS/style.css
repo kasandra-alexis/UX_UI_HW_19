@@ -373,7 +373,7 @@ input[type=text], select {
 .progressbar {
     border-radius: 1px;
     box-shadow: 20px;
-    color: #2f6c38;
+    color: #46905B;
     color: #FFFFFF; 
     Animation:  1s linear infinite;
     transition:  width .6s ease;
