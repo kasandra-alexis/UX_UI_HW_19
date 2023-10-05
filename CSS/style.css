@@ -354,6 +354,19 @@ input[type=text], select {
     padding-top: 50px;
     margin-top: 20px;
 }
+.back-top {
+    padding: 30px;
+}
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    Left: 0;
+    z-index: 1030;
+}
+.back-top img {
+    transform: rotate(180deg);
+}
 
 
 
@@ -386,6 +399,15 @@ input[type=text], select {
     text-align: center;
 }
 
+.accordion {
+    color: black;
+}
+.accordion-header {
+    color: black;
+}
+.accordion-button {
+        color: black;
+}
 
 /* GirlsRockDC */ 
 .casestudy {
