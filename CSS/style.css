@@ -149,12 +149,18 @@ p.kasandraf {
 }
 .homepage-iteration-3 .overlap {
     background-color: #Ffffff;
+    height: 691px;;
     display: flex;
     flex-direction: column;
 }
+
+.overlap2{
+    background-color: #Ffffff;
+    height: 1200px;
+}
 .background {
     align-items: center;
-    height: 691px;
+    
     justify-content: center;
     min-width: 1162px;
     padding: 114px 19px;
@@ -336,6 +342,19 @@ input[type=text], select {
     color: white
   }
 
+  input[type=submit]:active:focus {
+    background-color: #AFD69D;
+    color: white
+  }
+
+  .btn-primary:active:focus{
+    background-color: #AFD69D;
+    color: white;
+    border-color: white;
+  }
+
+  
+
 /* Gourmade */ 
 .GourmadeCS {
     display: flexbox;
@@ -368,6 +387,10 @@ input[type=text], select {
     transform: rotate(180deg);
 }
 
+.myAccordion{
+    display:flex;
+    flex-direction: column;
+}
 
 
 
@@ -422,4 +445,14 @@ input[type=text], select {
 
     padding-top: 50px;
     margin-top: 20px;
+}
+.ProtoPersona {
+    justify-content: center;
+}
+
+.overlap3{
+    background-color: #Ffffff;
+    height: 4150px;
+    
+    
 }
