@@ -201,8 +201,8 @@ p.kasandraf {
     display: flex;
     flex-direction: row;
     align-self: flex-start;
-    margin-left: 50px;
     margin-top: -360px;
+    padding-bottom: 100px;
 }
 
 .smedia {
@@ -221,6 +221,8 @@ p.kasandraf {
     color: black;
     font-family: 'Ruda', sans-serif;
     float: left;
+    margin-bottom: 54px;
+    align-self: flex-start;
 }
 
 
@@ -508,6 +510,5 @@ input[type=text], select {
 .overlap3{
     background-color: #Ffffff;
     height: 4150px;
-    
-    
+     
 }
